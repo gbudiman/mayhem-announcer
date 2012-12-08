@@ -9,6 +9,6 @@ else:
 	interval = 330
 	announcer = Announcer(interval)
 	message = ' '.join(sys.argv[e] for e in xrange(1, len(sys.argv)));
-	
-	announcer.prepare(message).send();
-	exit(0);
+
+	announcer.prepare(message).send()
+	exit(0)
