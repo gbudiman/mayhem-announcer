@@ -13,7 +13,7 @@ class MayhemCookiesHandler:
 		self.loginLaunchURL = "https://secure.modelmayhem.com/login/action"
 		self.castingURL = "http://modelmayhem.com/casting/search_casting"
 		self.loginConfirmation = "Welcome, Gloria Budiman!"
-		self.parameters = urllib.urlencode({"email": "gbudiman@purdue.edu",
+		self.parameters = urllib.urlencode({"email": "wahyu.g@gmail.com",
 							"password": "80ae11f0",
 							"reme": "1",
 							"check": "login"})
