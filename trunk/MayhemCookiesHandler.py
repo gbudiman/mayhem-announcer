@@ -13,8 +13,8 @@ class MayhemCookiesHandler:
 		self.loginLaunchURL = "https://secure.modelmayhem.com/login/action"
 		self.castingURL = "http://modelmayhem.com/casting/search_casting"
 		self.loginConfirmation = "Welcome, Gloria Budiman!"
-		self.parameters = urllib.urlencode({"email": "wahyu.g@gmail.com",
-							"password": "80ae11f0",
+		self.parameters = urllib.urlencode({"email": "your@email.com",
+							"password": "your_password",
 							"reme": "1",
 							"check": "login"})
 		self.headers = {"Content-type": "application/x-www-form-urlencoded",
